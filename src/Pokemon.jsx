@@ -11,7 +11,7 @@ const Pokemon = () => {
 
 
 
-    const API ="https://pokeapi.co/api/v2/pokemon?limits=1302"
+    const API ="https://pokeapi.co/api/v2/pokemon?limit=600"
     const fetchPokemon = async() =>{
         try {
            const res = await fetch(API) 
